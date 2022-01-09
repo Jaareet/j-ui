@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 .050vw #000, 0 0 .050vw #000, 0 0 .050vw #000, 0 0 .050vw #000, 0 0 .050vw #000, 0 0 .050vw #000, 0 0 .050vw #000, .1vw .050vw 0 #000;
+}
+
+body {
+    overflow: hidden;
+}
+
+.serverIcon img{
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    width: 4%;
+    border-radius: 10vw;
+}
+
+.serverInfo {
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    font-size: .9vw;
+}
+
+.serverInfo-container {
+    display: inline-block;
+    margin: 0 .5vw;
+    font-size: .9vw;
+}
+
+.needs-container {
+    display: inline-block;
+    margin: 1vw;
+}
+
+.fa-id-card, .fa-users {
+    color: gold;
+}
+
+.fIcon {
+    color: orange;
+}
+
+.wIcon {
+    color: skyblue;
+}
+
+.accounts {
+    margin: 1vw 0;
+}
+
+.accounts-container {
+    margin: .5vw;
+}
+
+.wallet {
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    font-size: 1.5vw;
+    color: rgb(168, 238, 28);
+}
+
+.bank {
+    margin-top: 2vw;
+    float: right;
+    font-size: 1vw;
+}
+
+.voiceContainer {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 50%;
+    right: 0%;
+    font-size: 2vw;
+}
+
+.voiceContainer-con {
+    display: inline-block;
+}
+
+.voiceMode {
+    color: #ccc;
+    font-size: 1vw;
+    padding: .2vw .5vw;
+    border: .2vw solid #ccc;
+    border-radius: 50vw;
+}
+
+.microPhone{
+    color: #ccc;
+    font-size: 2vw;
+}
+
+.time-date {
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+    font-size: .9vw;
+}
+
+.timeIcon{
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    font-size: 2.5vw;
+    color: rgb(168, 238, 28);
+}
+
+.td-container {
+    margin: .2vw 0;
+}
+
+.date {
+    font-size: .8vw;
+    float: right;
+}
+
+.speaking {
+    animation: speaking .6s infinite alternate;
+}
+
+.speedometer {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cruiser {
+    position: absolute;
+    bottom: 1.8%;
+    left: 53%;
+    transform: translateX(-50%);
+    background-color: yellowgreen;   
+    border-radius: .2vw;
+    width: 2vw;
+    height: .5vw;
+}
+
+.seatbelt {
+    position: absolute;
+    bottom: 1.2%;
+    left: 47.5%;
+    transform: translateX(-50%);
+    width: 10%;
+}
+
+.km {
+    padding: .2vw;
+    font-size: .8vw;
+    text-shadow: 0 0 .1vw #000,0 0 .1vw #000,0 0 .1vw #000,0 0 .1vw #000;
+    color: #fff;
+    text-align: center;
+    transition: .2s;
+}
+
+@keyframes speaking {
+    from {
+        color: #ccc;
+    }
+    to {
+        color: yellowgreen;
+    }
+}
