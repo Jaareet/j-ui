@@ -10,6 +10,8 @@
 <h3>
 
 * Cash & Bank UI
+* Time & Date UI
+* Server Icon UI
 * Hunger & Thirst UI
 * Speedometer UI
 * User ID & Max Clients UI
